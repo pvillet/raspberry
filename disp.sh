@@ -3,7 +3,7 @@
 echo "C'est parti "
 while true
 do
-   feh -Y -F -Z -D 10 /home/pi/Diffusion&
+   feh -Y -F -Z -D 10 -S filename /home/pi/Diffusion&
    feh_pid=$!
 #   echo "feh PID"
 #   echo $feh_pid
